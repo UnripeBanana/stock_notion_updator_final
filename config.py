@@ -10,4 +10,3 @@ NOTION_PRICE_DB_ID = os.environ["NOTION_PRICE_DB_ID"]
 # 국장종목 거래내역 DB 링크
 NOTION_TRADE_DB_ID = os.environ["NOTION_TRADE_DB_ID"]
 
-TIMEZONE
