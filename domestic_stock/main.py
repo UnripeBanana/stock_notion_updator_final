@@ -6,6 +6,9 @@ def domestic_stock_main (pages):
   for page in pages:
   
     ticker = get_ticker(page)
+
+    if not ticker:
+      continue
     
     stock_info = {
         **get_naver_prop(ticker),
