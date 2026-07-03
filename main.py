@@ -1,5 +1,7 @@
 from utils.config import NOTION_PRICE_DB_ID
 
+from domestic_stock.main import 
+
 """
 # 프로젝트의 시작점.
 
