@@ -1,5 +1,7 @@
 # 주가를 가져오는 함수만 포함시키기
 
+from config import NOTION_TOKEN
+
 def get_naver_price(code):
 
     # 네이버는 브라우저가 아닌 프로그램의 요청을 차단하는 경우가 있어서, 브라우저인 척 속이는 역할 수행
