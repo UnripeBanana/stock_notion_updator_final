@@ -3,6 +3,35 @@ from fifo import group_by_ticker, process_fifo
 from notion_updater import update_trade_page
 from stock_updater import update_stock_prices
 
+
+
+
+# 1. 노션 데이터 읽기
+
+
+
+# 2. 주가 업데이트
+
+
+
+# 3. 자산배분 계산
+
+
+
+# 4. 리밸런싱 계산
+
+
+
+# 5. 추천 생성
+
+
+
+# 6. 노션 업데이트
+
+
+
+
+
 # --------------------------
 # 거래내역 FIFO 계산
 # --------------------------
