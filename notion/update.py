@@ -2,6 +2,7 @@
 
 from config import NOTION_DB
 from notion.client import notion # notion : 로그인 된 앱에 접근할 수 있도록 해주는 역할
+from data.stock import adawd
 import os
 
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
@@ -36,5 +37,12 @@ def update_trade_page(page_id, remaining=None, profit=None):
 
     notion.pages.update(
         page_id=page_id,
+        properties=properties
+    )
+
+
+def 
+    notion.pages.update(
+        page_id=page["id"],
         properties=properties
     )
