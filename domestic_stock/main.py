@@ -1,3 +1,4 @@
+from config import NOTION_PRICE_DB_ID
 from notion.get_all_pages import get_all_pages
 
 for page in get_all_pages(DATABASE_ID):
