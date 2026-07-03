@@ -12,4 +12,4 @@ def domestic_stock_main (pages):
         **get_yfinance_prop(ticker)
     }
   
-    update_stock_DB(stock_info)
+    update_stock_DB(page, stock_info)
