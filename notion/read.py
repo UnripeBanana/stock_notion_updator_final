@@ -1,3 +1,5 @@
+from config import NOTION_TOKEN 
+
 def get_all_pages(database_id):
     pages = []
     cursor = None
