@@ -1,6 +1,7 @@
 # 주가를 가져오는 함수만 포함시키기
 
 from config import NOTION_TOKEN, NOTION_PRICE_DB_ID, NOTION_TRADE_DB_ID
+from notion.client import notion # notion : 로그인 된 앱에 접근할 수 있도록 해주는 역할
 import yfinance as yf
 import requests
 
