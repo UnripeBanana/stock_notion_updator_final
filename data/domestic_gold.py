@@ -19,7 +19,6 @@ def get_gold_price():
         "price": int(gold["closePrice"].replace(",", "")),           # 현재가
         "change": int(gold["fluctuations"].replace(",", "")),        # 전일대비
         "rate": float(gold["fluctuationsRatio"]),                    # 등락률
-        "updated": gold["localTradedAt"]                             # 갱신시각
     }
 
 # 받을 수 있는 정보 모음
