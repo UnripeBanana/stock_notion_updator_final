@@ -1,4 +1,4 @@
-from config import NOTION_PRICE_DB_ID, NOTION_TRADE_DB_ID
+from config import NOTION_PRICE_DB_ID, NOTION_TRADE_DB_ID, NOTION_KRX_GOLD_INFO_DB_ID
 from notion.get_all_pages import get_all_pages
 
 from domestic_stock.main import domestic_stock_main
@@ -10,7 +10,7 @@ from gold.main import gold_main
 #domestic_stock_trade_main(NOTION_TRADE_DB_ID)
 
 # 개발 진행 중
-gold_main(get_all_pages(NOTION_PRICE_DB_ID))
+gold_main(get_all_pages(NOTION_KRX_GOLD_INFO_DB_ID))
 
 
 """
