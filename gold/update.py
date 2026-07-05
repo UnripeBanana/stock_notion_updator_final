@@ -24,7 +24,7 @@ def update_KRX_GOLD_INFO_DB(gold_info):
         "number": change
     },
     "등락률_깃허브_원본": {
-        "number": upanddown
+        "number": rate
     },
     "마지막 업데이트": rich_text(logging())
   } 
