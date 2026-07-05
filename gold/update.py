@@ -16,6 +16,9 @@ def update_KRX_GOLD_INFO_DB(gold_info):
   if direction == "FALLING":
     change = -change
     rate = -rate
+  elif direction == "UNCHANGED":
+    change = 0
+    rate = 0
 
   gold_info_mod = {
     "현재가_깃허브_원본": {
