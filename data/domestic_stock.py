@@ -32,6 +32,12 @@ def get_naver_prop(ticker):
         "change": item["cv"],  # 전일 대비 가격 변화(원)
         "rf": item["rf"],      # 등락 구분(상승/하락/보합을 나타내는 코드)
         "cr": item["cr"],      # 등락률(%)
+
+        "open": item["ov"],
+        "high": item["hv"],
+        "low": item["lv"],
+        "volume": item["aq"],
+        
         "countOfListedStock": item["countOfListedStock"]  # 상장주식수
     }
 
